@@ -1,0 +1,31 @@
+* { font-family: Calibri, 'Liberation Sans', sans-serif; font-size: 13px; color: #193936; }
+QWidget { background-color: #FFFFFF; }
+QMainWindow, QDialog { background-color: #FFFFFF; }
+QLabel#windowTitle { font-size: 24px; font-weight: bold; color: #194845; }
+QLineEdit, QComboBox, QSpinBox, QDateEdit {
+    background-color: #FFFFFF;
+    border: 1px solid #83B9B4;
+    border-radius: 6px;
+    padding: 7px;
+    min-height: 24px;
+}
+QPushButton {
+    background-color: #70B2AF;
+    border: 1px solid #60A39F;
+    border-radius: 7px;
+    padding: 8px 13px;
+    min-height: 24px;
+    color: #16312F;
+    font-weight: bold;
+}
+QPushButton:hover { background-color: #5FADA9; }
+QPushButton:disabled { background-color: #DBE9E8; color: #829390; }
+QPushButton#secondaryButton { background-color: #D2F6E7; border-color: #C0E5D7; }
+QPushButton#secondaryButton:hover { background-color: #C2EBDC; }
+QScrollArea, QTableWidget { border: none; background-color: #FFFFFF; }
+QHeaderView::section { background-color: #D2F6E7; padding: 9px; border: 0; }
+QFrame#productCard { background-color: #FFFFFF; border: 1px solid #B5DBD4; border-radius: 8px; margin: 2px; padding: 6px; }
+QFrame#lowStock { background-color: #FF8080; border: 1px solid #E56A6A; border-radius: 8px; margin: 2px; padding: 6px; }
+QFrame#productCard QLabel, QFrame#lowStock QLabel { background: transparent; border: none; }
+QScrollBar:vertical { width: 10px; }
+QMessageBox QLabel { min-width: 230px; }
